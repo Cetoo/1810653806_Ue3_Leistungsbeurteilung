@@ -4,7 +4,8 @@ public class Vehicle {
     int power;
     double weight;
     String name;
-    /* Hier setze ich meine Attribute welche ein Vehicle haben soll*/
+    /*Hier setze ich meine Attribute welche ein Vehicle haben soll*/
+    /*Wenn diese Static wären hätte jede Instanz diese Attribute*/
 
 
 

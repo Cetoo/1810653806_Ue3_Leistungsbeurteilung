@@ -42,5 +42,5 @@ public class Taschenrechner
         }
 
 }
-
+/*Meine Taschenrechner Methoden hierbei muss darauf geachtet werden das die Methoden nicht den selben Namen haben*/
 

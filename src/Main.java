@@ -39,7 +39,7 @@ public class Main
 
         else
         {
-            String c = a.substring(b/2); /*Zeigt genau die Hälfte meiner Eingabe an bzw. bei 5 Zeichen zeigt es mir die letzen 3 an*/
+            String c = a.substring(b/2); /*Zeigt genau die 2. Hälfte meiner Eingabe an bzw. bei 5 Zeichen zeigt es mir die letzen 3 an*/
             System.out.println(c);
         }
     }
