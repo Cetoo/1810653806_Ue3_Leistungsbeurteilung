@@ -13,6 +13,8 @@ public class Main
         /*Meine Methode wähle ich hier mit Taschenrechner = die Klasse und die Methode mit .add an und als Übergabe
         * gebe ich die oben definierten int/double Werte mit*/
 
+        partialString(JOptionPane.showInputDialog(null, "Setzen Sie Ihr Passwort mit mindestens 3 Zeichen"));
+
         System.out.println(Taschenrechner.add(taschenrechnerIntA, taschenrechnerIntB));
         System.out.println(Taschenrechner.sub(taschenrechnerIntA, taschenrechnerIntB));
         System.out.println(Taschenrechner.div(taschenrechnerIntA, taschenrechnerIntB));
@@ -24,7 +26,7 @@ public class Main
         System.out.println(Taschenrechner.mul1(taschenrechnerDoubleA, taschenrechnerDoubleB));
 
 
-        partialString(JOptionPane.showInputDialog(null, "Setzen Sie Ihr Passwort mit mindestens 3 Zeichen"));
+
     }
 
     private static void partialString(String a) /*WARUM MACHE ICH HIER PRIVATE ?*/
